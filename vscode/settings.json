@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true, // required
+  "editor.formatOnType": true, // required
+  "editor.formatOnSaveMode": "file", // required to format on save
+
+  "editor.formatOnSave": false, // optional
+
+  "files.autoSave": "onFocusChange", // optional but recommended
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true
+}
