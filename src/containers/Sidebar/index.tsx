@@ -1,5 +1,5 @@
 import Avatar from '../../components/Avatar'
-import Paragrafo from '../../components/Paragrafo'
+import P from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'
 import { Descricao, BotaoTema, SidebarContainer } from './styles'
 
@@ -12,9 +12,9 @@ const Sidebar = (props: Props) => (
     <SidebarContainer>
       <Avatar />
       <Titulo fontSize={20}>The Jack is On Fire</Titulo>
-      <Paragrafo tipo="secundario" fontSize={16}>
+      <P tipo="secundario" fontSize={16}>
         The Old Jack
-      </Paragrafo>
+      </P>
       <Descricao tipo="principal" fontSize={12}>
         Devenvolvedor Front-End
       </Descricao>

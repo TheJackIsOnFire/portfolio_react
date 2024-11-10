@@ -1,4 +1,4 @@
-import { P } from './styles'
+import { P } from './Styles'
 
 export type Props = {
   children: string

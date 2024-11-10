@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { P } from '../../components/Paragrafo/styles'
+import P from '../../components/Paragrafo'
 
 export const Descricao = styled(P)`
   margin-top: 24px;
